@@ -2,53 +2,54 @@
 <html lang="en">
 <head>
 	<title>Wapik</title>
-	<link rel="stylesheet" type="text/css" href="../css/wapik_about.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<meta name="viewport" content="width=device-width">
 </head>
 <body>
 	<div class="wrapper">
 		<header class="header">
 			<div class="container">
-				<div class="header_top_row">
-					<div class="header_top_logo">
-						<a href=""><div class="header_top_logo_text">Wapik</div></a>
-						<div class="header_top_contact">+62 202 555 0117</div>
-					</div>
-					<div :class="{
-						'header_top_burger': true,
-						'active': isActive
-						}"
-						@click="headerActive">
-						<span></span>
-					</div>
-					<div :class="{
-						'header_top_menu': true,
-						'active': isActive
-						}">
-						<div class="header_top_list">
-							<a href="../index.html">
-								<p>Home</p>
-							</a>
-							<a href="../html/about.html">
-								<p>About Us</p>
-							</a>
-							<a href="../html/pricing.html">
-								<p>pricing</p>
-							</a>
-							<a href="../html/contact.html">
-								<p>Contact Us</p>
-							</a>
-							<a href="../html/get_starting.html">
-								<p>Get Started</p>
-							</a>
+				<div class="header__body">
+					<div class="header-top__row">
+						<div class="header-top__logo">
+							<a href="../index.html"><div class="header-top__logo_text">Wapik</div></a>
+							<div class="header-top__contact">+62 202 555 0117</div>
+						</div>
+						<div :class="{
+							'header-top__burger': true,
+							'active': isActive
+							}"
+							@click="headerActive">
+							<span></span>
+						</div>
+						<div :class="{
+							'header-top__menu': true,
+							'active': isActive
+							}">
+							<div class="header-top__list">
+								<a href="../index.html">
+									<p>Home</p>
+								</a>
+								<a href="">
+									<p>About Us</p>
+								</a>
+								<a href="./pricing.html">
+									<p>pricing</p>
+								</a>
+								<a href="./contact.html">
+									<p>Contact Us</p>
+								</a>
+								<a href="./get_starting.html">
+									<p>Get Started</p>
+								</a>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="header_bottom_container">
-					<div class="header_bottom_row">
-						<div class="header_bottom_title">Cras justo odio, dapibus ac facilisis in
-						egestas eget quam</div>
-						<div class="header_bottom_button">
+					<div class="header-bottom__row">
+						<div class="header-bottom__title">Cras justo odio, dapibus ac facilisis in
+							egestas eget quam</div>
+						<div class="header-bottom__text">Wapik is multipurpose template, with modern and smart design. Wapik is perfect template for you!</div>
+						<div class="header-bottom__button">
 							<button>Start Your Free Trial</button>
 						</div>
 					</div>
@@ -58,74 +59,75 @@
 		<div class="content">
 			<div class="features">
 				<div class="container">
-					<div class="features_title title">
-						<div class="title_title">About Us</div>
-						<div class="title_text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla.</div>
+					<div class="features-title title">
+						<div class="title__title">Best of our features</div>
+						<div class="title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</div>
 					</div>
-					<div class="features_row">
-						<div class="features_item">
-							<div class="features_item_img">
+					<div class="features-row">
+						<div class="features-item">
+							<div class="features-item__img">
 								<img src="../img/features_1.png" alt="">
 							</div>
-							<div class="features_item_title">Ionicons</div>
-							<div class="features_item_text">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem.</div>
+							<div class="features-item__title">Ionicons</div>
+							<div class="features-item__text">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem.</div>
 						</div>
-						<div class="features_item">
-							<div class="features_item_img">
+						<div class="features-item">
+							<div class="features-item__img">
 								<img src="../img/features_2.png" alt="">
 							</div>
-							<div class="features_item_title">Creative Design</div>
-							<div class="features_item_text">Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</div>
+							<div class="features-item__title">Creative Design</div>
+							<div class="features-item__text">Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</div>
 						</div>
-						<div class="features_item">
-							<div class="features_item_img">
+						<div class="features-item">
+							<div class="features-item__img">
 								<img src="../img/features_3.png" alt="">
 							</div>
-							<div class="features_item_title">Photoshop and Sketch</div>
-							<div class="features_item_text">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna.</div>
+							<div class="features-item__title">Photoshop and Sketch</div>
+							<div class="features-item__text">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna.</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="team">
 				<div class="container">
-					<div class="team_title title">
-						<div class="title_title">Meet Our Team</div>
-						<div class="title_text">Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
+					<div class="team__title title">
+						<div class="title__title">Meet Our Team</div>
+						<div class="title__text">Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
 					</div>
-					<div class="team_row">
-						<div class="team_item">
-							<div class="team_item_img">
+					<div class="team__row">
+						<div class="team__item">
+							<div class="team__item-img">
 								<img src="../img/team_1.png" alt="">
 							</div>
-							<div class="team_item_name">Joyce Hudson</div>
-							<div class="team_item_job_title">Founder & Designer</div>
+							<div class="team__item-name">Joyce Hudson</div>
+							<div class="team__item-job-title">Founder & Designer</div>
 						</div>
-						<div class="team_item">
-							<div class="team_item_img">
+						<div class="team__item">
+							<div class="team__item-img">
 								<img src="../img/team_2.png" alt="">
 							</div>
-							<div class="team_item_name">Angela Campbell</div>
-							<div class="team_item_job_title">Project Manager</div>
+							<div class="team__item-name">Angela Campbell</div>
+							<div class="team__item-job-title">Project Manager</div>
 						</div>
-						<div class="team_item">
-							<div class="team_item_img">
+						<div class="team__item">
+							<div class="team__item-img">
 								<img src="../img/team_3.png" alt="">
 							</div>
-							<div class="team_item_name">James Walker</div>
-							<div class="team_item_job_title">Developer</div>
+							<div class="team__item-name">James Walker</div>
+							<div class="team__item-job-title">Developer</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="download">
 				<div class="container">
-					<div class="download_row">
-						<div class="download_item">
-							<div class="download_title">Do You Like Wapik? Download it Now</div>
-							<div class="download_text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
+					<div class="download__row">
+						<div class="download__item">
+							<div class="download__title">Do You Like Wapik? Download it Now</div>
+							<div class="download__text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</div>
 						</div>
-						<div class="download_button">
+						<div class="download__button">
 							<button>download now! - FREE forever</button>
 						</div>
 					</div>
@@ -133,32 +135,32 @@
 			</div>
 			<div class="contact">
 				<div class="container">
-					<div class="contact_row">
-						<div class="contact_item">
-							<div class="contact_item_title">wapik</div>
-							<div class="contact_item_email">@: hi@wapik.com</div>
-							<div class="contact_item_number contact_item_text">p: +62 202 555 0117</div>
-							<div class="contact_item_adress contact_item_text">a: 610 Overlook Circle Suite 323 Kalamazoo, MI 49009</div>
+					<div class="contact__row">
+						<div class="contact__item">
+							<div class="contact__item-title">wapik</div>
+							<div class="contact__item-email">@: hi@wapik.com</div>
+							<div class="contact__item-number contact__item-text">p: +62 202 555 0117</div>
+							<div class="contact__item-adress contact__item-text">a: 610 Overlook Circle Suite 323 Kalamazoo, MI 49009</div>
 						</div>
-						<div class="contact_item">
-							<div class="contact_item_subtitle">Company</div>
-							<div class="contact_item_link contact_item_text"><a href="">Home</a></div>
-							<div class="contact_item_link contact_item_text"><a href="">About Us</a></div>
-							<div class="contact_item_link contact_item_text"><a href="">Pricing</a></div>
-							<div class="contact_item_link contact_item_text"><a href="">Contact Us</a></div>
+						<div class="contact__item">
+							<div class="contact__item-subtitle">Company</div>
+							<div class="contact__item-link contact__item-text"><a href="">Home</a></div>
+							<div class="contact__item-link contact__item-text"><a href="">About Us</a></div>
+							<div class="contact__item-link contact__item-text"><a href="">Pricing</a></div>
+							<div class="contact__item-link contact__item-text"><a href="">Contact Us</a></div>
 						</div>
-						<div class="contact_item">
-							<div class="contact_item_subtitle">Others</div>
-							<div class="contact_item_link contact_item_text"><a href="">Help & Support</a></div>
-							<div class="contact_item_link contact_item_text"><a href="">Privacy Policy</a></div>
-							<div class="contact_item_link contact_item_text"><a href="">Terms</a></div>
-							<div class="contact_item_link contact_item_text"><a href="">Sitemap</a></div>
+						<div class="contact__item">
+							<div class="contact__item-subtitle">Others</div>
+							<div class="contact__item-link contact__item-text"><a href="">Help & Support</a></div>
+							<div class="contact__item-link contact__item-text"><a href="">Privacy Policy</a></div>
+							<div class="contact__item-link contact__item-text"><a href="">Terms</a></div>
+							<div class="contact__item-link contact__item-text"><a href="">Sitemap</a></div>
 						</div>
-						<div class="contact_item">
-							<div class="contact_item_subtitle">Newsletter</div>
-							<div class="contact_item_text">Subscribe to our newsletter and get all
+						<div class="contact__item">
+							<div class="contact__item-subtitle">Newsletter</div>
+							<div class="contact__item-text">Subscribe to our newsletter and get all
                             the cool news</div>
-							<div class="contact_item_input">
+							<div class="contact__item-input">
 								<input type="text" placeholder="Enter Email">
 							</div>
 						</div>
@@ -168,21 +170,21 @@
 		</div>
 		<footer class="footer">
 			<div class="container">
-				<div class="footer_row">
-					<div class="footer_text">All rights reserved 2015.</div>
-					<div class="footer_links">
-						<p><a href=""><img src="../img/footer_1.png" alt=""></a></p>
-						<p><a href=""><img src="../img/footer_2.png" alt=""></a></p>
-						<p><a href=""><img src="../img/footer_3.png" alt=""></a></p>
-						<p><a href=""><img src="../img/footer_4.png" alt=""></a></p>
-						<p><a href=""><img src="../img/footer_5.png" alt=""></a></p>
-					</div>
+				<div class="footer__row">
+					<div class="footer__text">All rights reserved 2015.</div>
+					<ul class="footer__links">
+						<li><a href=""><img src="../img/footer_1.png" alt=""></a></li>
+						<li><a href=""><img src="../img/footer_2.png" alt=""></a></li>
+						<li><a href=""><img src="../img/footer_3.png" alt=""></a></>
+						<li><a href=""><img src="../img/footer_4.png" alt=""></a></li>
+						<li><a href=""><img src="../img/footer_5.png" alt=""></a></li>
+					</ul>
 				</div>
 			</div>
 		</footer>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/vue@next"></script>
-	<script src="../js/wapik.js"></script>
+	<script src="../js/index.js"></script>
 </body>
 </html>
